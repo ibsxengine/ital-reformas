@@ -57,7 +57,7 @@ export default function ServiciosPage() {
       <Navbar transparent={false} />
 
       {/* HERO — pt-40 para no solapar con menú */}
-      <section className="pt-40 pb-20 bg-[#1A1A18]">
+      <section className="pt-32 pb-16 bg-[#1A1A18]">
         <div className="max-w-[1360px] mx-auto px-8">
 
           {/* Título izquierda + texto derecha */}

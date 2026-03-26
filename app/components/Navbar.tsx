@@ -45,7 +45,7 @@ export default function Navbar({ transparent = false }: NavbarProps) {
         <div className="max-w-[1360px] mx-auto px-8 py-5 flex items-center justify-between">
 
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3">
+          <Link href="/" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="flex items-center gap-3">
             <div className="flex flex-col gap-0.5 h-6">
               <div className="flex-1 w-[3px] bg-[#1C3D2E]" />
               <div className="flex-1 w-[3px] bg-transparent border border-[#FAFAF5]/20" />
@@ -68,6 +68,7 @@ export default function Navbar({ transparent = false }: NavbarProps) {
                   initial={{ opacity: 0, y: -15 }} animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.08 * i + 0.4 }}>
                   <Link href={l.href}
+                    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                     className={`relative text-[12px] tracking-[0.22em] uppercase font-light transition-colors duration-300 group ${
                       isActive
                         ? "text-[#8B1A2A]"

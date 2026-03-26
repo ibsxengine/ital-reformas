@@ -119,7 +119,7 @@ export default function ProyectosPage() {
       <Navbar transparent={false} />
 
       {/* HERO — fondo verde, pt-40 para no solapar */}
-      <section className="pt-40 pb-20 bg-[#1C3D2E]">
+      <section className="pt-32 pb-16 bg-[#1C3D2E]">
         <div className="max-w-[1360px] mx-auto px-8">
           <motion.div
             initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }}

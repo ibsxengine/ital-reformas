@@ -41,7 +41,7 @@ export default function NosotrosPage() {
       <Navbar transparent={false} />
 
       {/* HERO — pt-40 para no solapar con menú */}
-      <section className="pt-40 pb-28 bg-[#FAFAF5]">
+      <section className="pt-32 pb-16 bg-[#FAFAF5]">
         <div className="max-w-[1360px] mx-auto px-8 grid md:grid-cols-2 gap-20 items-center">
           <motion.div initial={{ opacity: 0, x: -60 }} animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}>
